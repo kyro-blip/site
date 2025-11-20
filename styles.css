@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+input {
+    font: 400 16px "Montserrat";
+}
+
+/* Header */
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.main-nav {
+    width: 100%;
+
+}
+
+.header-list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+
+}
+
+.nav-item {
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #2f2f2f;
+    transition: 0.2s;
+}
+
+
+.nav-item:hover {
+    color: rgba(141, 139, 139, 0.8)
+}
+
+.nav-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+}
+
+.relationship-title-large {
+    font-family: "Montserrat";
+    color: #2f2f2f;
+    font-size: 54px;
+}
+
+/*main*/
+.main-section {
+
+    padding: 40px 0 64px;
+}
+
+.container {
+    max-width: 600px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.section-tittle {
+    font-family: "ralewey";
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about-us-image {
+    float: left;
+    width: 300px;
+    margin: 0 20px 10px 0;
+    border-radius: 8%;
+    height: auto;
+
+}
+
+.section-description {
+    color: #777;
+}
+
+/* nada haver com oq eu tava fazendo */
+
+body {
+    background: url(images/ChatGPT\ Image\ 20\ de\ nov.\ de\ 2025\,\ 01_50_24.png) center/cover no-repeat fixed;
+    backdrop-filter: blur(2px);
+}
+
+/* pedido de namoro */
+
+.text-gatito {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #ffeef3;
+    border-radius: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #4b2e36;
+    line-height: 1.7;
+    white-space: pre-line;
+    font-size: 1rem;
+}
+
+/* Semanas */
+
+.week {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 16px;
+    color: #2f2f2f;
+
+}
+
+.week a {
+    color: inherit;
+}
+
+
+
+/* centralizar texto */
+
+.holy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weeked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    max-width: 800px;
+    margin: 5px auto;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Georgia", serif;
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 15px;
+    backdrop-filter: blur(2px);
+}
